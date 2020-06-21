@@ -1,0 +1,26 @@
+{
+  "name": "udp-mitm-proxy",
+  "description": "A simple UDP MITM proxy with hot-reload support",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": "rigwild/udp-mitm-proxy",
+  "author": {
+    "name": "rigwild",
+    "email": "me@rigwild.dev",
+    "url": "https://rigwild.dev"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "typescript": "^3.8.3"
+  }
+}
